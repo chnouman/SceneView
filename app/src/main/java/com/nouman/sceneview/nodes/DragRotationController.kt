@@ -60,7 +60,7 @@ class DragRotationController(
         long -= deltaAngleX
         lat += deltaAngleY
 
-        lat = Math.max(Math.min(lat, 90.0), 0.0)
+        //lat = Math.max(Math.min(lat, 90.0), 0.0)
 
         transformCamera(lat, long)
     }
